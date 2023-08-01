@@ -1,0 +1,49 @@
+1. How do you create a new repository on GitHub?
+
+In the upper-right corner of my page, i have used the drop-down menu, and select New repository. Then  a short, memorable name for your repository. i add a description of my repository. I Choose a repository visibility then I
+Select Initialize this repository with a README. Click Create repository.
+
+2. How do you copy a repository onto your local machine from GitHub?
+
+From the list of repositories, i have to click the repository i want to clone. To select the local directory into which i want to clone the repository, next to the "Local Path" field, click Choose and navigate to the directory. At the bottom of the "Clone a Repository" window, click Clone.
+
+3. What is the default name of your remote connection?
+
+
+4. Explain what origin is in git push origin main.
+
+Git push origin is a git command that pushes a local branch to a remote repository . Origin is the actually conventional shorthand name of the url for the remote repository (usually in GitHub or another cloud git repository provider) for my project.
+
+5. Explain what main is in git push origin main.
+
+Where git push initiates the push, origin refers to the remote counterpart of the project, and main is the branch name.
+
+6. Explain the two-stage system that Git uses to save files.
+
+A save in Git is divided into two terminal commands: add and commit.
+
+7. How do you check the status of your current repository?
+
+ Git status command
+
+8. How do you add files to the staging area in git?
+
+ git add -A command or the git add . command.
+
+9. How do you commit the files in the staging area and add a descriptive message?
+git add .
+git add file1.txt file2.js
+git status
+git commit -m ""
+git push origin master
+
+10. How do you push your changes to your repository on GitHub?
+git init
+git remote add origin https://github.com/your-username/your-repository.git
+git push <remote-name> <branch-name>
+git push origin main
+
+11. How do you look at the history of your previous commits
+cd /path/to/your/repo
+git log
+git log --oneline
